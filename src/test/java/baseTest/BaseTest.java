@@ -17,10 +17,10 @@ public class BaseTest {
 	public void setUp()
 	{
 		
-		//WebDriverManager.chromedriver().setup();
-		WebDriverManager.edgedriver().setup();
-		driver = new EdgeDriver();
-	//	driver = new ChromeDriver();
+		WebDriverManager.chromedriver().setup();
+	//	WebDriverManager.edgedriver().setup();
+		//driver = new EdgeDriver();
+	driver = new ChromeDriver();
 	    driver.get("https://demoqa.com/text-box");
 	 //   driver.findElement(By.xpath("//div[@class='category-cards']//div[1]//div[1]//div[2]//*[name()='svg']")).click();
 		driver.manage().window().maximize();
