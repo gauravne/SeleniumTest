@@ -1,12 +1,19 @@
 package baseTest;
 
+import org.testng.annotations.Test;
+
 public class HelloWord {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Test
+	public void hello()
+	{
+		
 		
 		System.out.println("Hello Gaurav !!!");
+		
+		
 	}
+	
+	
 
 }
